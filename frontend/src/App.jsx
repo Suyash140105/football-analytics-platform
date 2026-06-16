@@ -1,11 +1,12 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <div className="bg-black text-white h-screen flex items-center justify-center">
-      <h1 className="text-5xl font-bold">
-        Football Analytics Platform
-      </h1>
+    <div>
+      <Navbar />
+      <h1>Football Analytics Platform</h1>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
