@@ -1,11 +1,12 @@
 import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
-      <h1>Football Analytics Platform</h1>
-    </div>
+      <Home />
+    </>
   );
 }
 
